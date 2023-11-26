@@ -1,0 +1,85 @@
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Roboto;
+}
+
+.inner-container {
+  background-color: #150b3e;
+  padding: 20px;
+  border-radius: 20px;
+  width: 500px;
+}
+
+.name-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo-container {
+  background-color: #c7d2fe;
+  padding: 25px;
+  color: #7c3aed;
+  font-weight: 600;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+
+.name {
+  margin-left: 40px;
+  display: flex;
+  justify-content: center;
+  color: #c7d2fe;
+  font-size: 25px;
+}
+
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.balance-container-title {
+  color: #585076;
+  font-size: 20px;
+}
+
+.balance-section-right-side-container {
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title-2 {
+  color: #585076;
+}
+
+.remaining-amount {
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.denomination-container {
+  display: flex;
+  flex-direction: column;
+}
+.denomination-heading {
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.denomination-paragraph {
+  color: #585076;
+}
+
+.denominations {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
